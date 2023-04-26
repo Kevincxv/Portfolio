@@ -49,12 +49,17 @@ const Education = () => {
                 
 type="Florida International University"
 time="Junior | B.S. Computer Science"
-info="Doral Academy Charter High School is a highly regarded charter school located in Doral, Florida, offering a comprehensive curriculum to students from grades 9 through 12. The school is known for its strong academic programs, dedicated faculty, and commitment to fostering a nurturing and supportive learning environment. With a focus on college preparation and a range of extracurricular activities, Doral Academy Charter High School provides students with the tools and opportunities needed to succeed in their future endeavors."
+info="As a computer science major at FIU, I've been actively involved in clubs like the Google Student Developer Club, INIT Build AI Team, and AI-4-ALL team. Through these experiences, 
+I've developed advanced AI skills, including designing deep learning models for real-world applications. Collaborating with my peers, I've contributed to cutting-edge AI solutions and 
+explored ethical AI principles. My involvement has significantly shaped my growth as a software engineer, preparing me for a future full of AI opportunities."
 />
 <Details
 type="Miami Dade College"
 time="Graduate | A.A. Architecture"
-info="Doral College is an accredited institution of higher learning that specializes in providing innovative educational opportunities to high school students, offering a range of courses designed to help them get ahead in their studies. Having completed 21 classes at Doral College, I have successfully accumulated over 70 credits, showcasing my dedication to education and academic achievement."
+info="As a former architecture major at Miami Dade College, I've always been drawn to the creative process and the ability to shape the world around us. However, after exploring the 
+vast possibilities that technology offers, I decided to pivot my academic path and dive into computer science. This transition allowed me to merge my passion for design with the 
+cutting-edge world of programming and artificial intelligence. Now, as a computer science major, I am eager to bring innovative ideas to life, blending aesthetics and functionality to 
+create solutions that will positively impact our ever-evolving digital landscape."
                 />
                 </ul>
             </div>

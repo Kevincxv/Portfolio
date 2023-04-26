@@ -54,29 +54,34 @@ const Experience = () => {
                 
 position="Software Engineer Intern" company= "Sebanda Insurance"
 companyLink="https://www.sebandainsurance.com/"
-time="Mar 2019-Present"  address="| 6401 SW 40th St, Miami, FL 33155"
-work="Collaborate closely with cross-functional teams to design, develop, and implement cutting-edge 
-software solutions tailored to the specific needs of the insurance industry, optimizing business 
-processes, and enhancing customer experiences"
+time="Mar 2019 - Feb 2023"  address="| Miami, FL"
+work="I played a pivotal role in the design and development of a robust accounting software system using Python, which led to a 20% increase in data entry accuracy and enhanced financial 
+reporting capabilities. This, in turn, facilitated informed decision-making and improved management. In addition to the software development, I conducted hands-on technical training to 
+ensure smooth adoption of the new system, resulting in high user satisfaction and empowering employees with the skills needed to effectively utilize the software. Furthermore, I was 
+instrumental in optimizing workflow processes by integrating the new accounting software system, eliminating manual tasks, and boosting overall efficiency by 15%. This fostered a more 
+streamlined work environment and increased productivity across the board."
 />
 <Details 
                 
-position="Founder & Owner" company= "Code Culture"
-                time="		Aug	2022	– Present" 
-                work=" Pioneered	a	non-profit	Discord	server	with	a	dynamic community	of	500+	developers	and	programmers,	leveraging	
-                cutting-edge	technologies	to	provide	innovative	solutions	to	complex	technical	problems.
-                Customized	and	implemented	advanced	bots	with	features	such	as	automated	moderation	and	customized	role	
-                management,	leading	to	a	20%	increase	in	user	engagement and	30%	reduction	in	moderation	workload."
+position="Software Engineer" company= "Freelancer"
+                time="May 2021 - Jan 2023 | Remote" 
+                work="As a software engineer freelancer, I skillfully designed and developed custom software solutions using Python, C++, and Java to 
+                address clients' unique requirements and preferences, showcasing my expertise across various programming languages and platforms. By 
+                collaborating closely with clients, I was able to create tailored software solutions that enhanced database performance by 40% and 
+                improved the efficiency of meal planning and task organization apps, ultimately increasing user satisfaction and streamlining operations. 
+                In addition, my ability to facilitate seamless communication with cross-functional teams allowed me to employ my technical expertise and 
+                interpersonal skills to improve project management by 25%, ensuring on-time delivery of software solutions and fostering a collaborative 
+                work environment that encouraged innovation and creative problem-solving."
                 />
                 <Details 
                 
-                position="Co-Founder" company= "Pencils For	Latin	America"
-                time="Apr	2018 – Present" 
-                work="Co-Founded	Pencils	for	Latin	America,	a	non-profit	aimed	at	delivering	crucial	school	supplies	to	underprivileged	Latin	
-                American	students;	raised	$3,500+,	distributed	700lbs	of	supplies	to	Costa	Rica	and	the	Dominican	Republic.
-                mplemented	effective	marketing	strategies and	outreach,	leading	to	heightened	donor	involvement	and	backing.
-                Showcased	project	management	expertise	in	supervising	supply	acquisition and	distribution,	while	promoting	operational	
-                efficiency	and	responsibility,	fostering	the	organization's	success	and	meaningful	influence	on	disadvantaged	students."
+                position="Founder & Owner" company= "Code Culture"
+                time="Aug 2022 – Present | Miami, FL" 
+                work="I took the initiative to create a non-profit Discord server that rapidly grew into a thriving 
+                community of more than 500+ dedicated developers and programmers. Our members, coming from diverse backgrounds and skill levels, leverage cutting-edge 
+                technologies to provide innovative solutions to an array of complex technical problems.I meticulously customized and implemented advanced bots equipped with features such as automated moderation and personalized 
+                role management. These enhancements not only contributed to a 20% increase in user engagement but also led to a 30% reduction in the moderation workload 
+                for our dedicated staff. Code Culture remains at the forefront of technology and serves as an indispensable resource for the ever-expanding tech community."
                 />
                 </ul>
             </div>
