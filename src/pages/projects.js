@@ -169,9 +169,7 @@ summary="The FaceFlow project is an innovative AI-driven initiative that special
 deep learning algorithms and advanced computer vision methodologies. By employing a combination of Convolutional Neural Networks (CNNs) and cutting-edge 
 electromyography (EMG) signal processing techniques, FaceFlow's robust system accurately discerns individuals based on their unique facial features and muscle 
 patterns. The integration of multi-modal data fusion and real-time sensor fusion technologies further enhances the solution's precision, allowing for 
-seamless detection even under diverse environmental conditions and varying facial expressions. FaceFlow's highly adaptable and extensible architecture 
-offers extensive applicability across various industries and applications, such as biometrics, security, healthcare, and human-computer interaction, empowering 
-organizations to harness the full potential of AI-driven facial and muscle analysis for improved identification, authentication, and user experience."
+seamless detection even under diverse environmental conditions and varying facial expressions."
 link="https://github.com/Kevincxv/AI-Emotions-Classifier"
 github="https://github.com/Kevincxv/AI-Emotions-Classifier"
 type="Featured Project"
