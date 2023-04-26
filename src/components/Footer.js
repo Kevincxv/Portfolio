@@ -11,9 +11,9 @@ const Footer = () => {
                 <div className='flex items-center lg:py-2'>
                     Build with <span className='text-dark dark:text-primaryDark text-2xl px-1'>&#9825;</span>
                 
-                by&nbsp;<p>KennethCamacho</p>
+                by&nbsp;<p>Kevin Camacho</p>
                 </div>
-                <Link href="mailto:kennethcxv@gmail.com" target={"_blank"} >Say Hello</Link>
+                <Link href="mailto:kevincxv@outlook.com" target={"_blank"} >Say Hello</Link>
                 </Layout>
     </footer>
   )
