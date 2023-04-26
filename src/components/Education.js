@@ -47,15 +47,13 @@ const Education = () => {
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
                 
-type="High School"
-time="12th Grade |"
-place="Doral Academy Prepatory"
+type="Florida International University"
+time="Junior | B.S. Computer Science"
 info="Doral Academy Charter High School is a highly regarded charter school located in Doral, Florida, offering a comprehensive curriculum to students from grades 9 through 12. The school is known for its strong academic programs, dedicated faculty, and commitment to fostering a nurturing and supportive learning environment. With a focus on college preparation and a range of extracurricular activities, Doral Academy Charter High School provides students with the tools and opportunities needed to succeed in their future endeavors."
 />
 <Details
-type="College"
-time="2.5 years"
-place="Doral College | Dual Enrollment"
+type="Miami Dade College"
+time="Graduate | A.A. Architecture"
 info="Doral College is an accredited institution of higher learning that specializes in providing innovative educational opportunities to high school students, offering a range of courses designed to help them get ahead in their studies. Having completed 21 classes at Doral College, I have successfully accumulated over 70 credits, showcasing my dedication to education and academic achievement."
                 />
                 </ul>

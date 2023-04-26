@@ -98,7 +98,7 @@ const articles = () => {
   return (
     <>
     <Head>
-        <title>KennethCamacho | Articles Page</title>
+        <title>Kevin Camacho | Articles Page</title>
         <meta name='description' content='I am an aspiring Software Engineer' />
     </Head>
     <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
