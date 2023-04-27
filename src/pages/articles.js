@@ -99,7 +99,7 @@ const articles = () => {
     <>
     <Head>
         <title>Kevin Camacho | Articles Page</title>
-        <meta name='description' content='I am an aspiring Software Engineer' />
+        <meta name='description' content='Software Engineer' />
     </Head>
     <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
         <Layout className='pt-16'>
