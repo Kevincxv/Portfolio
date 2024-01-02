@@ -4,11 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/UpperHalf.jpg";
-import { Truculenta } from "next/font/google";
 import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
-import Leadership from "@/components/Leadership";
-import Education from "@/components/Education";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);

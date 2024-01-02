@@ -5,23 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
-import Emotion from "../../public/images/projects/EmotionDetectingAi.png";
-import Auth from "../../public/images/projects/Auth.png";
-import TextToImage from "../../public/images/projects/TextToImage.png";
-import Pulse from "../../public/images/projects/Pulse.png";
-import KendrickLamar from "../../public/images/projects/KendrickLamar.png";
-import CountrySorter from "../../public/images/projects/CountrySorter.png";
-import SignLanguage from "../../public/images/projects/SignLanguageTranslator.png";
-import Crypto from "../../public/images/projects/CryptocurrencyTradingBot.png";
-import Robotic from "../../public/images/projects/RoboticArm.png";
-import Audio from "../../public/images/projects/Audio.png";
-import SQL from "../../public/images/projects/SQL.png";
 import SocialMediaApp from "../../public/images/projects/SocialMediaApp.png";
 import LiveStreaming from "../../public/images/projects/Live Streaming.png";
-import GameHub from "../../public/images/projects/GameHub.png";
 import ECommerce from "../../public/images/projects/ECommerce.png";
-
 import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
