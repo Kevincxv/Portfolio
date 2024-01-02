@@ -3,11 +3,8 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import Logo from "./Logo";
 import {
-  TwitterIcon,
-  DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -68,11 +65,7 @@ const NavBar = () => {
   };
 
   return (
-    <header
-      className="w-full px-32 py-8 font-medium flex items-center justify-between
-    dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8
-    "
-    >
+    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
       <button
         className=" flex-col justify-center items-center hidden lg:flex"
         onClick={handleClick}
