@@ -49,31 +49,34 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-                I'm Kevin Camacho, a Computer Science major at Florida State
-                University with a GPA of 3.9/4.0. My expertise lies in machine
-                learning, backend engineering, and I have a robust foundation in
-                data structures, computer architecture, and software
-                engineering.
+                As a dedicated student at Florida International University, I'm
+                pursuing a B.S. in Computer Science and an A.A. in Architecture,
+                with a graduation date set for December 2024. My academic
+                achievements are highlighted by a 3.8 GPA and multiple
+                scholarships, alongside certifications in Python, MySQL, and
+                Machine Learning.
               </p>
               <p className="my-4 font-medium">
-                During my internship at Sebanda Insurance, I developed AI
-                accounting software, enhancing efficiency and accuracy
-                significantly. My role at Founders Deep Learning Startup as a
-                team lead involved creating a system for predicting disease
-                outbreaks, utilizing advanced deep learning techniques.
+                In the realm of technology, I have a broad skillset in languages
+                like Java, Python, and C++, which I've applied in software
+                engineering internships at CSC Corp Tax, Progressive Insurance,
+                and Sebanda Insurance. These experiences have been crucial in
+                improving system efficiency and applying my knowledge in
+                real-world scenarios.
               </p>
               <p className="font-medium">
-                I'm skilled in languages like C, C++, Python, Java, and
-                JavaScript, and I'm proficient in React, .NET, Next.js, and
-                TypeScript. My education and experiences have honed my abilities
-                in database management, software engineering, and machine
-                learning applications.
+                I also engage in entrepreneurial ventures, leading projects such
+                as a full-stack social media platform for software engineers and
+                an e-commerce site. These projects demonstrate my technical
+                skills and ability to innovate in niche markets.
               </p>
               <br />
               <p className="font-medium">
-                I'm passionate about leveraging technology to solve real-world
-                problems and am always eager to explore new challenges in the
-                field of computer science.
+                As a leader and community contributor, I founded a non-profit
+                developers' Discord server and actively participate in tech
+                teams like Google Student Developer and AI-4-ALL. These roles
+                underline my commitment to fostering a collaborative tech
+                community.
               </p>
             </div>
 
