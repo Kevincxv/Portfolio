@@ -1,187 +1,337 @@
-import AnimatedText from '@/components/AnimatedText'
-import { GithubIcon } from '@/components/Icons'
-import Layout from '@/components/Layout'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import project1 from "../../public/images/projects/My project (1).png";
-import project2 from "../../public/images/projects/My project (2).png";
-import project3 from "../../public/images/projects/My project (3).png";
-import project4 from "../../public/images/projects/My project (6).png";
-import{motion} from "framer-motion";
+// import AnimatedText from '@/components/TypingText'
+import { GithubIcon } from "@/components/Icons";
+import Layout from "@/components/Layout";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
+import Emotion from "../../public/images/projects/EmotionDetectingAi.png";
+import Auth from "../../public/images/projects/Auth.png";
+import TextToImage from "../../public/images/projects/TextToImage.png";
+import Pulse from "../../public/images/projects/Pulse.png";
+import KendrickLamar from "../../public/images/projects/KendrickLamar.png";
+import CountrySorter from "../../public/images/projects/CountrySorter.png";
+import SignLanguage from "../../public/images/projects/SignLanguageTranslator.png";
+import Crypto from "../../public/images/projects/CryptocurrencyTradingBot.png";
+import Robotic from "../../public/images/projects/RoboticArm.png";
+import Audio from "../../public/images/projects/Audio.png";
+import SQL from "../../public/images/projects/SQL.png";
+import SocialMediaApp from "../../public/images/projects/SocialMediaApp.png";
+import LiveStreaming from "../../public/images/projects/Live Streaming.png";
+import GameHub from "../../public/images/projects/GameHub.png";
+import ECommerce from "../../public/images/projects/ECommerce.png";
 
+import { motion } from "framer-motion";
 
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({type, title, summary, img , link, github}) => {
-    return(
-        
-            <article className='w-full flex items-center justify-between relative rounded-br-2xl
+const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+  return (
+    <article
+      className="w-full flex items-center justify-between relative rounded-br-2xl
             rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
             lg:flex-col lg:p-8 xs:rounded 2xl xs:rounded-br-3xl xs:p-4
-            '>
-                    <div className='absolute top-0 -right-3 -z-10 w-[100.5%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light 
+            "
+    >
+      <div
+        className="absolute top-0 -right-3 -z-10 w-[100.5%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light 
                     rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]
-                    '/>
-                <Link href={link} target='_blank'
-                className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
-                    
-                    <FramerImage src={img} alt={title} className="w-full h-auto" 
-                   
-                    whileHover={{scale:1.05}}
-                    transition={{duration:0.2}}
-                    priority
-                    sizes='(max-width:768px) 100vw,
+                    "
+      />
+      <Link
+        href={link}
+        target="_blank"
+        className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
+      >
+        <FramerImage
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+          priority
+          sizes="(max-width:768px) 100vw,
                     (max-width:1200px) 50vw,
-                    50vw'/>
-                    
-                </Link>
-                <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
-                <span className='text-primary font-medium text-xl dark:text-primaryDark xs:text-base lg:text-lg'>{type}</span>
-                <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left font-bold dark:text-light sm:text-sm' style={{ fontSize: '1.5rem' }}>{title}</h2>
-
-                </Link>
-                <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
-                <div className='mt-2 flex items-center'>
-                    <Link href={github} target='_blank' className='w-10'><GithubIcon /> </Link>
-                    <Link href={link} target='_blank'
-                    className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
+                    50vw"
+        />
+      </Link>
+      <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6">
+        <span className="text-primary font-medium text-xl dark:text-primaryDark xs:text-base lg:text-lg">
+          {type}
+        </span>
+        <Link
+          href={link}
+          target="_blank"
+          className="hover:underline underline-offset-2"
+        >
+          <h2
+            className="my-2 w-full text-left font-bold dark:text-light sm:text-sm"
+            style={{ fontSize: "1.5rem" }}
+          >
+            {title}
+          </h2>
+        </Link>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
+        <div className="mt-2 flex items-center">
+          <Link href={github} target="_blank" className="w-10">
+            <GithubIcon />{" "}
+          </Link>
+          <Link
+            href={link}
+            target="_blank"
+            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
                     dark:bg-light dark:text-dark 
                     sm:px-4 sm:text-base
-                    '
-                    >Visit Project </Link>
+                    "
+          >
+            Visit Project{" "}
+          </Link>
+        </div>
+      </div>
+    </article>
+  );
+};
+const Project = ({ title, type, img, link, github }) => {
+  return (
+    <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark  dark:border-light xs:p-4">
+      <div
+        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]
+                    rounded-br-3xl"
+      />
+      <Link
+        href={link}
+        target="_blank"
+        className="w-full cursor-pointer overflow-hidden rounded-lg"
+      >
+        <FramerImage
+          src={img}
+          alt={title}
+          className="w-full h-auto"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+        />
+      </Link>
+      <div className="w-full flex flex-col items-start justify-between mt-4">
+        <span className="text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base">
+          {type}
+        </span>
+        <Link
+          href={link}
+          target="_blank"
+          className="hover:underline underline-offset-2"
+        >
+          <h2
+            className="my-2 w-full text-left font-bold lg:text-2xl"
+            style={{ fontSize: "1.25rem" }}
+          >
+            {title}
+          </h2>
+        </Link>
 
-                </div>
-                </div>
-            </article>
-        
-    )
-}
-const Project = ({title, type, img, link, github}) => {
-    return(
-        <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark  dark:border-light xs:p-4'>
-            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]
-                    rounded-br-3xl'/>
-            <Link href={link} target='_blank'
-                className='w-full cursor-pointer overflow-hidden rounded-lg'>
-                    
-                    <FramerImage src={img} alt={title} className="w-full h-auto" 
-                
-                    whileHover={{scale:1.05}}
-                    transition={{duration:0.2}}
-                    />
-                </Link>
-                <div className='w-full flex flex-col items-start justify-between mt-4'>
-                <span className='text-primary font-medium text-xl dark:text-primaryDark lg:text-lg md:text-base'>{type}</span>
-                <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left font-bold lg:text-2xl' style={{ fontSize: '1.25rem' }}>{title}</h2>
-
-                </Link>
-                
-                <div className='w-full mt-2 flex items-center justify-between'>
-                <Link href={link} target='_blank'
-                    className='text-lg font-semibold underline md:text-base'
-                    >Visit</Link>
-                    <Link href={github} target='_blank' className='w-8 md:w-6'><GithubIcon /> </Link>
-                    
-
-                </div>
-                </div>
-        </article>
-
-    )
-}
+        <div className="w-full mt-2 flex items-center justify-between">
+          <Link
+            href={link}
+            target="_blank"
+            className="text-lg font-semibold underline md:text-base"
+          >
+            Visit
+          </Link>
+          <Link href={github} target="_blank" className="w-8 md:w-6">
+            <GithubIcon />{" "}
+          </Link>
+        </div>
+      </div>
+    </article>
+  );
+};
+// ... existing imports ...
 
 const projects = () => {
   return (
     <>
-    <Head>
-    <title>Kevin Camacho | Projects Page</title>
-    <meta name='description' content='Software Engineer' />
-</Head>
-    <main className='font-normal w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
-        <Layout className='pt-12 font-normal items-center'>
-        <div className="text-container">
-
- <AnimatedText text="Imagination" className='!text-5xl !text-center lg:!text-5xl sm:mb-8 sm:!text-4xl xs:!text-3xl'/>
- <AnimatedText text="==" className='!text-5xl !text-center lg:!text-5xl sm:mb-8 sm:!text-4xl xs:!text-3xl'/>
- <AnimatedText text="Innovative projects!" className='!text-5xl !text-center lg:!text-5xl sm:mb-8 sm:!text-4xl xs:!text-3xl'/>
-
-<br /> 
-
-</div>
-            <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
-                <div className='col-span-12'>
-                <FeaturedProject 
-title="AI Authenticator - Uniface"
-img={project1}
-summary="Uniface is a groundbreaking facial recognition authentication solution that harnesses AI-driven deep learning algorithms and advanced computer 
-vision techniques, including Convolutional Neural Networks (CNNs) and feature extraction. Designed for seamless integration across various industries, 
-it offers low-latency processing, adaptability, and resistance against adversarial attacks. Its modular and extensible nature allows customization to 
-meet unique enterprise needs, while liveness detection mechanisms counteract spoofing attempts. By implementing Uniface, organizations can strengthen 
-security, optimize access management, and enhance user experience, positioning themselves as leaders in the digital transformation era."
-link="https://github.com/Kevincxv/UniFace-AI-Authenticator/tree/main/UniFace"
-github="https://github.com/Kevincxv/UniFace-AI-Authenticator/tree/main/UniFace"
-type="Featured Project"
-                    />
-                </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project
-title="AI Text to Image - Imagin AI"
-img={project2}
-summary="The ImaginAI project is an avant-garde AI-driven endeavor that specializes in the generation of high-fidelity images based on textual prompts, 
-employing cutting-edge deep learning techniques and advanced generative adversarial networks (GANs). Utilizing a combination of transformer architectures 
-and conditioning mechanisms, ImaginAI's neural network efficiently translates complex semantic information from text prompts into intricate visual representations, 
-while maintaining coherence and context fidelity. The system incorporates state-of-the-art optimization algorithms, ensuring the generated images exhibit 
-photorealistic attributes and fine-grained details. Furthermore, ImaginAI's robust design enables the handling of diverse content domains, offering extensive 
-applicability across various industries. This groundbreaking technology paves the way for novel applications in visual storytelling, creative design, advertising,
-and content generation, empowering businesses to harness the full potential of AI-driven visual synthesis."
-link="https://github.com/Kevincxv/AI-Image-Generator"
-github="https://github.com/Kevincxv/AI-Image-Generator"
-type="Project"
-                    />
-                </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project
-title="Country Sorter - GeoSorter"
-img={project3}
-summary="The GeoSorter project is a sophisticated AI-based endeavor that focuses on the efficient sorting and organization of countries using advanced 
-search algorithms and data-driven optimization techniques. By employing a combination of heuristics, machine learning models, and graph theory, GeoSorter's 
-innovative system analyzes a multitude of factors, including geographical proximity, political relationships, and socio-economic indicators, to generate an 
-optimized sorting sequence. The implementation of parallel computing and distributed processing methodologies further enhances the solution's computational 
-efficiency, allowing for real-time responsiveness and adaptability to evolving data. With its highly modular and extensible architecture, GeoSorter offers 
-seamless integration across various industries and applications, such as geopolitical analysis, international trade, logistics, and travel planning, enabling 
-organizations to harness the full potential of AI-driven geographical data management and optimization.
-"
-link="https://github.com/Kevincxv/Country-Sorter"
-github="https://github.com/Kevincxv/Country-Sorter"
-type="Project"
-                    />
-                </div>
-                <div className='col-span-12'>
-                <FeaturedProject 
-title="Emotion Detecting AI - FaceFlow"
-img={project4}
-summary="The FaceFlow project is an innovative AI-driven initiative that specializes in facial recognition and muscle-based analysis, utilizing state-of-the-art 
-deep learning algorithms and advanced computer vision methodologies. By employing a combination of Convolutional Neural Networks (CNNs) and cutting-edge 
-electromyography (EMG) signal processing techniques, FaceFlow's robust system accurately discerns individuals based on their unique facial features and muscle 
-patterns. The integration of multi-modal data fusion and real-time sensor fusion technologies further enhances the solution's precision, allowing for 
-seamless detection even under diverse environmental conditions and varying facial expressions."
-link="https://github.com/Kevincxv/AI-Emotions-Classifier"
-github="https://github.com/Kevincxv/AI-Emotions-Classifier"
-type="Featured Project"
-                    />
-                </div>
-                
+      <Head>
+        <title>Kevin Camacho | Projects Page</title>
+        <meta name="description" content="Software Engineer" />
+      </Head>
+      <main className="font-normal w-full mb-16 flex flex-col items-center justify-center dark:text-light">
+        <Layout className="pt-12 font-normal items-center">
+          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            {/* Featured Project */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Full Stack Live Streaming Platform"
+                img={LiveStreaming}
+                summary="Engineered an advanced live streaming platform. Featured RTMP/WHIP protocols for high-quality broadcasting, real-time chat, and a dynamic streamer dashboard, revolutionizing interactive media technology.Developed live streaming advancements with real-time viewer analytics, interactive chats, and server-side rendering in a sleek, high-performance interface, elevating interactive media and community engagement."
+                link="https://github.com/Kevincxv/Full-Stack-Live-Streaming-Platform"
+                github="https://github.com/Kevincxv/Full-Stack-Live-Streaming-Platform"
+                type="Featured Project"
+              />
             </div>
 
-        </Layout>
-    </main>
-</>
-  )
-}
+            {/* New Regular Project 1 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Audio Scribe AI"
+                img={Audio} // Replace with actual image import
+                summary=""
+                link="https://github.com/Kevincxv/Audio-Scribe-AI" // Replace with actual project link
+                github="https://github.com/Kevincxv/Audio-Scribe-AI" // Replace with actual GitHub link
+                type="Project"
+              />
+            </div>
+            {/* New Regular Project 1 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Managin SystemSQL"
+                img={SQL} // Replace with actual image import
+                summary=""
+                link="https://github.com/Kevincxv/Managing-SystemSQL" // Replace with actual project link
+                github="https://github.com/Kevincxv/Managing-SystemSQL" // Replace with actual GitHub link
+                type="Project"
+              />
+            </div>
+            {/* Featured Project */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Full Stack E-Commerce"
+                img={ECommerce}
+                summary="Architected an innovative full-stack E-Commerce platform with a dynamic, Tailwind-enhanced admin dashboard, revolutionizing online retail by offering unmatched real-time control over a vast array of vendor stores and products. Implemented advanced features like Clerk Authentication and Stripe integration, enhancing transaction security and providing comprehensive analytics, leading to a significant boost in operational efficiency and user engagement."
+                link="https://github.com/Kevincxv/Full-Stack-E-Commerce"
+                github="https://github.com/Kevincxv/Full-Stack-E-Commerce"
+                type="Featured Project"
+              />
+            </div>
 
-export default projects
+            {/* Regular Project 1 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Cryptocurrency Trading Bot"
+                img={Crypto}
+                summary=""
+                link="https://github.com/Kevincxv/Cryptocurrency-Trading-Bot"
+                github="https://github.com/Kevincxv/Cryptocurrency-Trading-Bot"
+                type="Project"
+              />
+            </div>
+
+            {/* Regular Project 2 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Precision Control Robotic Arm"
+                img={Robotic}
+                summary=""
+                link="https://github.com/Kevincxv/Enabling-Precision-Control-Robotic-Arm"
+                github="https://github.com/Kevincxv/Enabling-Precision-Control-Robotic-Arm"
+                type="Project"
+              />
+            </div>
+
+            {/* Featured Project */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Social Media Application"
+                img={SocialMediaApp}
+                summary="This app is a specialized social media platform designed for programmers, offering unique features tailored to their needs. Users can share code snippets, ideas, and updates in a tweet-like format, allowing for quick and efficient communication within the programming community. Additionally, the app includes interactive features such as liking, upvoting, downvoting, and the ability to reply directly to code, fostering a collaborative and engaging environment for developers."
+                link="https://github.com/Kevincxv/Social-Media-App"
+                github="https://github.com/Kevincxv/Social-Media-App"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Game Hub"
+                img={GameHub} // Replace with actual image import
+                summary=""
+                link="https://github.com/Kevincxv/Game-Hub" // Replace with actual project link
+                github="https://github.com/Kevincxv/Game-Hub" // Replace with actual GitHub link
+                type="Project"
+              />
+            </div>
+            {/* Regular Project 2 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Country Sorter"
+                img={CountrySorter}
+                summary=""
+                link="https://github.com/Kevincxv/Country-Sorter"
+                github="https://github.com/Kevincxv/Country-Sorter"
+                type="Project"
+              />
+            </div>
+            {/* Featured Project */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="AI Sign Language Translator "
+                img={SignLanguage}
+                summary="This app is an AI-powered sign language translator, capable of translating American Sign Language (ASL) into spoken language in real-time. It features advanced hand-tracking technology that can be resized for accuracy, ensuring effective interpretation of ASL gestures. Additionally, the app provides a transcript of the translation and allows users to either view the text or hear it voiced by AI, enhancing accessibility for both deaf and hearing individuals."
+                link="https://github.com/Kevincxv/AI-Sign-Language-Translator"
+                github="https://github.com/Kevincxv/AI-Sign-Language-Translator"
+                type="Featured Project"
+              />
+            </div>
+            {/* Regular Project 1 */}
+
+            {/* Regular Project 2 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="AI Text to Image Generator"
+                img={TextToImage}
+                summary=""
+                link="https://github.com/Kevincxv/AI-Text-To-Image-Generater"
+                github="https://github.com/Kevincxv/AI-Text-To-Image-Generater"
+                type="Project"
+              />
+            </div>
+            {/* Regular Project 1 */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Kendrick Lamar Website"
+                img={KendrickLamar}
+                summary=""
+                link="https://github.com/Kevincxv/Kendrick-Lamar-Website"
+                github="https://github.com/Kevincxv/Kendrick-Lamar-Website"
+                type="Project"
+              />
+            </div>
+            {/* Featured Project */}
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Pulse Tactical Warfare"
+                img={Pulse}
+                summary="Pulse Tactical Warfare is a dynamic first-person shooter (FPS) game that offers a variety of fast-paced gaming modes, including a thrilling battle royale, classic multiplayer, and an engaging zombies mode. Players can also enjoy solo play, where they face off against advanced AI opponents, adding depth to the gaming experience. The game is known for its intense action, strategic gameplay, and diverse environments, catering to a wide range of FPS enthusiasts."
+                link="https://github.com/Kevincxv/Pulse-Tactical-Warfare"
+                github="https://github.com/Kevincxv/Pulse-Tactical-Warfare"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="AI Emotions Classifier"
+                img={Emotion}
+                summary=""
+                link="https://github.com/Kevincxv/AI-Emotions-Classifier"
+                github="https://github.com/Kevincxv/AI-Emotions-Classifier"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="AI Authenticator"
+                img={Auth}
+                summary=""
+                link="https://github.com/Kevincxv/AI-Authenticator"
+                github="https://github.com/Kevincxv/AI-Authenticator"
+                type="Project"
+              />
+            </div>
+          </div>
+        </Layout>
+      </main>
+    </>
+  );
+};
+
+export default projects;
