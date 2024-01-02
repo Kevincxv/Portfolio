@@ -3,7 +3,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/UpperHalf.png";
+import profilePic from "../../public/images/UpperHalf.jpg";
 import { Truculenta } from "next/font/google";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
