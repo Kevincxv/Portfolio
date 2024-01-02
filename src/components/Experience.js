@@ -48,22 +48,26 @@ const Experience = () => {
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details 
                         position="Software Engineer Intern"
+                        company="CSC CorpTax"
+                        companyLink="https://corptax.com/"
+                        time="Sep 2023 – Dec 2023 | Remote"
+                        work="
+                        In my role as a Software Engineer Intern at CSC Corp Tax, I was responsible for maintaining and enhancing tax-related applications using C#, .NET, and Python. My contributions were critical in automating tax calculations and streamlining tax submissions, resulting in a significant reduction of manual errors by an estimated 25%. I also played a key role in transitioning existing software components to a .NET framework, which improved response times by 20% and facilitated better integration with internal systems. This experience at CSC Corp Tax not only honed my skills in various programming languages and frameworks but also gave me valuable insights into the intersection of software development and tax services."
+                    />
+                    <Details 
+                        position="Software Engineer Intern"
+                        company="Progressive Insurance"
+                        companyLink="https://www.progressive.com/"
+                        time="May 2023 – Aug 2023 | Remote"
+                        work="At Progressive Insurance, my role as a Software Engineer Intern involved developing robust, scalable applications using C# and SQL, leading to a significant 30% improvement in system performance and user experience. My work focused on enhancing business operations through the integration of microservices architecture and SQL databases. Additionally, I contributed to application reliability by optimizing development and deployment processes, utilizing NUnit for C# testing, and ensuring seamless integration with VB and SQL functionalities. This experience not only allowed me to apply and deepen my technical skills but also provided invaluable insights into the intricacies of software development in the insurance industry."
+                    />
+                    <Details 
+                        position="Software Engineer Intern"
                         company="Sebanda Insurance"
                         companyLink="https://www.sebandainsurance.com/"
-                        time="Mar 2021 – Dec 2023 | Miami, FL"
-                        work="Developed AI accounting software with Python, reducing errors by 35%, reporting time by 25%, and improving efficiency by 15%. Partnered to set up a cloud infrastructure, achieving 99.5% stability and cutting costs by 20%. Implemented OCR and NLP for faster claims processing, enhancing speed by 30% and elevating customer satisfaction."
-                    />
-                    <Details 
-                        position="Software Engineer Team Lead"
-                        company="Deep Learning Startup"
-                        time="Jun 2023 – Aug 2023 | Remote"
-                        work="Led a team to create a system predicting disease outbreaks using medical records, social media, and weather data. Applied State-of-the-Art Deep Learning Techniques, including neural networks and Natural Language Processing, to accurately predict disease outbreaks, aiding proactive healthcare responses."
-                    />
-                    <Details 
-                        position="Software Engineer"
-                        company="Freelancer"
-                        time="Apr 2021 – March 2023 | Remote"
-                        work="Led e-commerce backend improvements, reducing load times by 15% and increasing transactions by 10%, while also crafting a dashboard that boosted sales insights by 25%. Executed a 50+ GB data transition to AWS, decreasing retrieval times by 20% with a consistent 99.9% uptime."
+                        time="Oct 2020 – May 2023 | Miami, FL"
+                        work="
+                        During my tenure as a Software Engineer Intern at Sebanda Insurance, I played a key role in developing and integrating a Python-based accounting software system. This project, which leveraged PostgreSQL databases and Flask APIs, led to a noteworthy 20% improvement in data entry accuracy and a 15% increase in overall efficiency. My responsibilities included streamlining workflows, eliminating manual tasks, and conducting hands-on technical training for employees, significantly enhancing both the operational efficiency and user satisfaction. This experience at Sebanda Insurance not only sharpened my technical skills in Python and database management but also honed my abilities in software training and process optimization."
                     />
                     {/* Add more <Details /> components for other experiences as needed */}
                 </ul>

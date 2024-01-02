@@ -61,26 +61,18 @@ const Leadership = () => {
             work="Led the creation and growth of Code Culture, a non-profit Discord server. Focused on fostering a community of developers and programmers, providing a platform for collaboration, learning, and sharing of ideas. Successfully managed a team of moderators and implemented innovative features to enhance user experience."
           />
           <Details
-            position="Founder & Owner"
-            company="Culture Coder"
-            companyLink="https://github.com/Kevincxv/Social-Media-App"
-            time="Dec 2022 – Present | Remote"
-            work="Established and grew a full-stack social media platform tailored for programmers. Oversaw all aspects of the project, including development, funding, and user engagement. Successfully built a platform that not only serves as a social network but also as a learning resource for the programming community."
+            position="Executive Board"
+            company="INIT"
+            companyLink="https://discord.gg/init"
+            time="Jan 2023 – Present | Miami, FL"
+            work="In my role on the executive board of INIT, I have demonstrated exemplary leadership and technical skills, playing a pivotal role in driving the organization's vision and strategic initiatives. My responsibilities include organizing events, leading project teams, and fostering a culture of innovation and collaboration among our members. I have successfully spearheaded initiatives that focus on the practical application of AI and software development, contributing significantly to the growth and impact of the group. My tenure on INIT's executive board has not only honed my leadership abilities but also deepened my understanding of team dynamics and project management in the tech sector."
           />
           <Details
-            position="Founder & Owner"
-            company="Pulse Tactical Warfare"
-            companyLink="https://github.com/Kevincxv/Pulse-Tactical-Warfare"
-            time="Apr 2021 – Present | Remote"
-            work="Initiated and managed the development of a complex FPS game, demonstrating leadership in project management, technical direction, and community engagement. Actively involved in all aspects of game development from concept to execution, including programming, design, and marketing strategies."
-          />
-          <Details
-            position="Founder & Owner"
-            company="Pencils For Latin America"
-            companyLink="https://www.gofundme.com/f/pencils-for-latin-america-Dominican-Republic"
-            time="Apr 2018 – Present"
-            address=""
-            work="Co-founded a non-profit initiative, raising $3000+ and distributing 700lbs of educational resources for the underprivileged school the Escuela de Primaria Cabrera de Toro in Dominican Republic. Amplified donor engagement and expanded organizational impact through data-driven marketing, social media, and community partnerships. Established and nurtured relationships with Latin American schools, enhancing the alignment of initiatives with community educational needs."
+            position="Lead Full Stack"
+            company="Google Student Developer"
+            companyLink="https://discord.gg/rVX8XfN7b2"
+            time="Jan 2023 – Present | Miami, FL"
+            work="As the Lead Full Stack Developer at the Google Student Developer Club at Florida International University, I have been instrumental in guiding a team of talented developers. In this role, I oversee the design and implementation of various web and mobile applications, emphasizing innovation and cutting-edge technologies. My leadership extends to mentoring team members, fostering an environment of learning and professional growth. This position has allowed me to significantly contribute to the club's technical projects, while also enhancing my skills in project management, team coordination, and full-stack development, further establishing my role as a key figure in the tech community at FIU."
           />
         </ul>
       </div>
