@@ -158,41 +158,19 @@ const projects = () => {
       </Head>
       <main className="font-normal w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-12 font-normal items-center">
-          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          <div className="grid grid-cols-12 gap-24 gap-y-10 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             {/* Featured Project */}
             <div className="col-span-12">
               <FeaturedProject
                 title="Full Stack Live Streaming Platform"
                 img={LiveStreaming}
                 summary="Engineered an advanced live streaming platform. Featured RTMP/WHIP protocols for high-quality broadcasting, real-time chat, and a dynamic streamer dashboard, revolutionizing interactive media technology.Developed live streaming advancements with real-time viewer analytics, interactive chats, and server-side rendering in a sleek, high-performance interface, elevating interactive media and community engagement."
-                link="https://github.com/Kevincxv/Full-Stack-Live-Streaming-Platform"
-                github="https://github.com/Kevincxv/Full-Stack-Live-Streaming-Platform"
+                link="https://github.com/Kevincxv/Twitch-Clone"
+                github="https://github.com/Kevincxv/Twitch-Clone"
                 type="Featured Project"
               />
             </div>
 
-            {/* New Regular Project 1 */}
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Audio Scribe AI"
-                img={Audio} // Replace with actual image import
-                summary=""
-                link="https://github.com/Kevincxv/Audio-Scribe-AI" // Replace with actual project link
-                github="https://github.com/Kevincxv/Audio-Scribe-AI" // Replace with actual GitHub link
-                type="Project"
-              />
-            </div>
-            {/* New Regular Project 1 */}
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Managin SystemSQL"
-                img={SQL} // Replace with actual image import
-                summary=""
-                link="https://github.com/Kevincxv/Managing-SystemSQL" // Replace with actual project link
-                github="https://github.com/Kevincxv/Managing-SystemSQL" // Replace with actual GitHub link
-                type="Project"
-              />
-            </div>
             {/* Featured Project */}
             <div className="col-span-12">
               <FeaturedProject
@@ -205,128 +183,18 @@ const projects = () => {
               />
             </div>
 
-            {/* Regular Project 1 */}
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Cryptocurrency Trading Bot"
-                img={Crypto}
-                summary=""
-                link="https://github.com/Kevincxv/Cryptocurrency-Trading-Bot"
-                github="https://github.com/Kevincxv/Cryptocurrency-Trading-Bot"
-                type="Project"
-              />
-            </div>
-
-            {/* Regular Project 2 */}
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Precision Control Robotic Arm"
-                img={Robotic}
-                summary=""
-                link="https://github.com/Kevincxv/Enabling-Precision-Control-Robotic-Arm"
-                github="https://github.com/Kevincxv/Enabling-Precision-Control-Robotic-Arm"
-                type="Project"
-              />
-            </div>
-
             {/* Featured Project */}
             <div className="col-span-12">
               <FeaturedProject
                 title="Social Media Application"
                 img={SocialMediaApp}
                 summary="This app is a specialized social media platform designed for programmers, offering unique features tailored to their needs. Users can share code snippets, ideas, and updates in a tweet-like format, allowing for quick and efficient communication within the programming community. Additionally, the app includes interactive features such as liking, upvoting, downvoting, and the ability to reply directly to code, fostering a collaborative and engaging environment for developers."
-                link="https://github.com/Kevincxv/Social-Media-App"
-                github="https://github.com/Kevincxv/Social-Media-App"
+                link="https://github.com/Kevincxv/Code-Culture"
+                github="https://github.com/Kevincxv/Code-Culture"
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Game Hub"
-                img={GameHub} // Replace with actual image import
-                summary=""
-                link="https://github.com/Kevincxv/Game-Hub" // Replace with actual project link
-                github="https://github.com/Kevincxv/Game-Hub" // Replace with actual GitHub link
-                type="Project"
-              />
-            </div>
-            {/* Regular Project 2 */}
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Country Sorter"
-                img={CountrySorter}
-                summary=""
-                link="https://github.com/Kevincxv/Country-Sorter"
-                github="https://github.com/Kevincxv/Country-Sorter"
-                type="Project"
-              />
-            </div>
-            {/* Featured Project */}
-            <div className="col-span-12">
-              <FeaturedProject
-                title="AI Sign Language Translator "
-                img={SignLanguage}
-                summary="This app is an AI-powered sign language translator, capable of translating American Sign Language (ASL) into spoken language in real-time. It features advanced hand-tracking technology that can be resized for accuracy, ensuring effective interpretation of ASL gestures. Additionally, the app provides a transcript of the translation and allows users to either view the text or hear it voiced by AI, enhancing accessibility for both deaf and hearing individuals."
-                link="https://github.com/Kevincxv/AI-Sign-Language-Translator"
-                github="https://github.com/Kevincxv/AI-Sign-Language-Translator"
-                type="Featured Project"
-              />
-            </div>
-            {/* Regular Project 1 */}
-
-            {/* Regular Project 2 */}
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="AI Text to Image Generator"
-                img={TextToImage}
-                summary=""
-                link="https://github.com/Kevincxv/AI-Text-To-Image-Generater"
-                github="https://github.com/Kevincxv/AI-Text-To-Image-Generater"
-                type="Project"
-              />
-            </div>
-            {/* Regular Project 1 */}
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Kendrick Lamar Website"
-                img={KendrickLamar}
-                summary=""
-                link="https://github.com/Kevincxv/Kendrick-Lamar-Website"
-                github="https://github.com/Kevincxv/Kendrick-Lamar-Website"
-                type="Project"
-              />
-            </div>
-            {/* Featured Project */}
-            <div className="col-span-12">
-              <FeaturedProject
-                title="Pulse Tactical Warfare"
-                img={Pulse}
-                summary="Pulse Tactical Warfare is a dynamic first-person shooter (FPS) game that offers a variety of fast-paced gaming modes, including a thrilling battle royale, classic multiplayer, and an engaging zombies mode. Players can also enjoy solo play, where they face off against advanced AI opponents, adding depth to the gaming experience. The game is known for its intense action, strategic gameplay, and diverse environments, catering to a wide range of FPS enthusiasts."
-                link="https://github.com/Kevincxv/Pulse-Tactical-Warfare"
-                github="https://github.com/Kevincxv/Pulse-Tactical-Warfare"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="AI Emotions Classifier"
-                img={Emotion}
-                summary=""
-                link="https://github.com/Kevincxv/AI-Emotions-Classifier"
-                github="https://github.com/Kevincxv/AI-Emotions-Classifier"
-                type="Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="AI Authenticator"
-                img={Auth}
-                summary=""
-                link="https://github.com/Kevincxv/AI-Authenticator"
-                github="https://github.com/Kevincxv/AI-Authenticator"
-                type="Project"
-              />
-            </div>
+    
           </div>
         </Layout>
       </main>
