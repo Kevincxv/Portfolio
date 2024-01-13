@@ -54,7 +54,7 @@ const Leadership = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Founder & Owner"
+            position="Founder & President"
             company="Code Culture"
             companyLink="https://discord.gg/code-culture"
             time="Aug 2022 – Present | Miami, FL"
