@@ -163,8 +163,8 @@ const projects = () => {
                 title="Full Stack E-Commerce"
                 img={ECommerce}
                 summary="Architected an innovative full-stack E-Commerce platform with a dynamic, Tailwind-enhanced admin dashboard, revolutionizing online retail by offering unmatched real-time control over a vast array of vendor stores and products. Implemented advanced features like Clerk Authentication and Stripe integration, enhancing transaction security and providing comprehensive analytics, leading to a significant boost in operational efficiency and user engagement."
-                link="https://github.com/Kevincxv/Full-Stack-E-Commerce"
-                github="https://github.com/Kevincxv/Full-Stack-E-Commerce"
+                link="https://github.com/Kevincxv/Ecommerce-Admin-Application"
+                github="https://github.com/Kevincxv/Ecommerce-Admin-Application"
                 type="Featured Project"
               />
             </div>
