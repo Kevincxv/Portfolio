@@ -39,9 +39,8 @@ export default function Home() {
                 options={{
                   strings: [
                     "Welcome to my Portfolio!",
-                    "Discover Innovative Solutions",
-                    "Explore My Projects",
-                    "Journey with Me in Technology",
+                    "Learn More About Me!",
+                    "Explore My Projects!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -62,7 +61,7 @@ export default function Home() {
             an e-commerce site. I'm also the founder of a non-profit developers'
             Discord server, where I promote innovation and collaboration. My
             involvement in various tech teams showcases my commitment to
-            fostering a dynamic technical community.  
+            fostering a dynamic technical community.
           </p>
           <div className="xl:mr-60 flex items-center justify-center mt-2 mr-44">
             <Link
