@@ -64,7 +64,7 @@ export default function Home() {
             <Link
               href="/Kevin_Camacho_Resume.pdf"
               target="_blank"
-              className="2xl:mr-5 2xl:ml-20 xl:mr-10 xl:ml-40 md:mr-10 md:ml-52 sm:mr-10 sm:ml-96 flex bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold border-2 border-solid border-transparent md:p-2 md:px-4 md:text-base 
+              className="2xl:mr-5 2xl:ml-20 xl:mr-10 xl:ml-40 md:mr-10 md:ml-52 sm:mr-10 sm:ml-96 flex bg-dark 2xl:-mt-96 text-light p-2.5 px-6 rounded-lg text-lg font-semibold
   hover:bg-light hover:text-dark hover:border-dark 
   dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light"
             >
