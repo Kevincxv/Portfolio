@@ -49,28 +49,28 @@ export default function Home() {
             </div>
           </h1>
           <p className=" md:text-[20px] lg:pl-10 lg:pr-10 md:pr-10 md:pl-40 sm:pr-6  sm:pl-60 sm:w-full my-6 lg:justify-center lg:w-full  md:text-sm lg:ml-10  lg:mr-10 md:ml-10 lg:text-md  xl:translate-x-[-280px] xl:w-full xl:mr-[600px]  sm:text-sm md:text-md xl:align-top   xl:text-xl   2xl:text-lg 2xl:ml-5 2xl:mb-60  text-lg font-medium mr-44 text-dark dark:text-light">
-            I'm Kevin Camacho, a computer science student at Florida
-            International University, My academic journey is enriched by
-            certifications in Python, MySQL, and Machine Learning. I possess a
-            strong command of programming languages, including Java, Python, and
-            C++, which I've effectively applied in software engineering
-            internships at CSC Corp Tax, Progressive Insurance, and Sebanda
-            Insurance. In these roles, I've significantly improved system
-            efficiencies and performance. My entrepreneurial spirit is evident
-            in projects I've led, such as a full-stack social media platform and
-            an e-commerce site. I'm also the founder of a non-profit developers'
-            Discord server, where I promote innovation and collaboration. My
-            involvement in various tech teams showcases my commitment to
-            fostering a dynamic technical community.
+            My name is Kevin Camacho, and I'm a student at Florida International
+            University with a strong interest in software development. I work on
+            various aspects of software, including backend and frontend
+            development, as well as mobile, web, and embedded systems. In my
+            free time, I enjoy building PCs and working with robotics. I’m also
+            the founder of Code Culture, the second-largest nonprofit
+            organization in Florida, where we help programmers of all levels,
+            from beginners to advanced, offering then workshops, project based
+            learning and activities to learn from. It is a pleasure to meet all
+            of you!
           </p>
           <div className="xl:mr-60 flex items-center justify-center mt-2 mr-44">
             <Link
               href="/Kevin_Camacho_Resume.pdf"
               target="_blank"
-              className="2xl:mr-5 2xl:ml-20 xl:mr-10 xl:ml-40  md:mr-10 md:ml-52 sm:mr-10 sm:ml-96 flex bg-dark 2xl:-mt-96 text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light md:p-2 md:px-4 md:text-base"
+              className="2xl:mr-5 2xl:ml-20 xl:mr-10 xl:ml-40 md:mr-10 md:ml-52 sm:mr-10 sm:ml-96 flex bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold border-2 border-solid border-transparent md:p-2 md:px-4 md:text-base 
+  hover:bg-light hover:text-dark hover:border-dark 
+  dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light"
             >
               Resume
             </Link>
+
             <a
               href="mailto:Kevincxv@outlook.com"
               target="_blank"
